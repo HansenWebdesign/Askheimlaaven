@@ -1,0 +1,334 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(Askheimlåven-bilder/Drone/askheimBakgrunnTest2.JPG);
+    background-position: 0% auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+*{
+    font-family: 'Niconne', cursive, serif;
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+.nav-link .navbar-brand {
+    color: rgb(218, 214, 214);
+}
+.navbar-brand{
+    font-size: 4vw !important;
+}
+.nav-link{
+    font-size: 1.8vw !important;
+}
+/* Navigation end */
+
+/* -- Content -- */
+
+#TopTekst {
+    color: white;
+}
+
+.content {
+    margin-top: 17vw;
+    margin-bottom: 35vw;
+}
+h1{
+    font-size: 5vw !important;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    padding-bottom: 20px;
+    padding-top: 760px;
+}
+.parallax {
+    height: 30vw;
+    background-image: url('Askheimlåven-bilder/forsideTestBilde1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Om Oss */
+.parallax2 {
+    height: 30vw;
+    background-image: url('Askheimlåven-bilder/OmOssTestBilde2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Om Oss end */
+.row {
+    padding-top: 35px;
+}
+.col-5 {
+    text-align: center;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+}
+
+/* Kontakt oss */
+.parallax3 {
+    height: 30vw;
+    background-image: url('Askheimlåven-bilder/KontaktTestBilde1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.information {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* Kontakt oss end */
+
+/* Galleri */
+.parallax4 {
+    height: 30vw;
+    background-image: url('Askheimlåven-bilder/GalleriTestBilde1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.GalleriDel1 {
+    padding-bottom: 70px;
+}
+.Linje1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Linje2 {
+    padding-left: 30px;
+}
+.Linje2a {
+    padding-left: 30px;
+}
+.Linje2b {
+    padding-left: 30px;
+}
+.Linje3 {
+    padding-left: 30px;
+}
+.Linje4 {
+    padding-left: 30px;
+}
+.Linje5 {
+    padding-left: 30px;
+}
+.Linje6 {
+    padding-left: 30px;
+}
+.Linje7 {
+    padding-left: 30px;
+}
+.Linje8 {
+    padding-left: 30px;
+}
+
+#Gallery {
+    padding-bottom: 70px;
+}
+.GalleriDel3 {
+    padding-top: 30px;
+    padding-left: 380px;
+    padding-bottom: 80px;
+}
+.GalleriDel2 {
+    padding-top: 30px;
+    padding-left: 380px;
+}
+
+.GalleriDel1 img {
+    transition: 1s;
+}
+.GalleriDel1 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.GalleriDel2 img {
+    transition: 1s;
+}
+.GalleriDel2 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.GalleriDel3 img {
+    transition: 1s;
+}
+.GalleriDel3 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+/* Galleri end */
+
+
+/* Mobil/nettbrett tilpassning */
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        padding-bottom: 20px;
+        padding-top: 450px;
+        }
+        .GalleriDel2 {
+            padding-top: 25px;
+            padding-left: 0%;
+        }
+        .GalleriDel3 {
+            padding-top: 25px;
+            padding-left: 0%;
+            padding-bottom: 80px;
+        }
+        .Linje2 {
+            padding-left: 0px;
+        }
+        .Linje4 {
+            padding-top: 100px;
+        }
+        .MobilDevice {
+            padding-bottom: 10px;
+        }
+        .Linje5 {
+            padding-bottom: 10px;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding-bottom: 20px;
+        padding-top: 350px;
+        }
+        .GalleriDel2 {
+            padding-top: 25px;
+            padding-left: 0%;
+        }
+        .GalleriDel3 {
+            padding-top: 25px;
+            padding-left: 0%;
+            padding-bottom: 80px;
+        }
+        .Linje2 {
+            padding-left: 30px;
+        }
+        .Linje4 {
+            padding-top: 100px;
+        }
+        .MobilDevice {
+            padding-left: 70px;
+        }
+        .MobilDevice1 {
+            padding-left: 70px;
+        }
+        .Linje5 {
+            padding-left: 115px;
+        }
+        .Linje2a {
+            padding-left: 115px;
+        }
+        .Linje3 {
+            padding-left: 115px;
+        }
+        .Linje7 {
+            padding-left: 115px;
+        }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    .container {
+        padding-bottom: 20px;
+        padding-top: 280px;
+        }
+        .GalleriDel1 {
+            padding-left: 2px;
+            margin-right: -50px;
+        }
+    .MobilDevice {
+        padding-left: 5px;
+    }
+    .MobilDevice1 {
+        padding-left: 5px;
+    }
+    .Linje2 {
+        padding-left: 30px;
+    }
+    .Linje2a {
+        padding-left: 75px;
+    }
+    .Linje3 {
+        padding-left: 75px;
+    }
+    .Linje5 {
+        padding-left: 75px;
+    }
+    .Linje7 {
+        padding-left: 75px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        padding-bottom: 20px;
+        padding-top: 150px;
+        }
+        .GalleriDel1 {
+            padding-left: 2px;
+            margin-right: -50px;
+        }
+        .GalleriDel3 {
+            padding-top: 0px;
+        }
+    .MobilDevice {
+        padding-left: 45px;
+    }
+    .Linje1 {
+        padding-left: 45px;
+    }
+    .MobilDevice1 {
+        padding-left: 45px;
+    }
+    .Linje2 {
+        padding-left: 45px;
+    }
+    .Linje2a {
+        padding-left: 65px;
+    }
+    .Linje2b {
+        padding-left: 65px;
+    }
+    .Linje3 {
+        padding-left: 65px;
+    }
+    .Linje4 {
+        padding-left: 65px;
+    }
+    .Linje5 {
+        padding-left: 65px;
+    }
+    .Linje6 {
+        padding-left: 65px;
+    }
+    .Linje7 {
+        padding-left: 65px;
+    }
+    .Linje8 {
+        padding-left: 65px;
+    }
+
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
